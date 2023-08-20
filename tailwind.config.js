@@ -7,7 +7,7 @@ module.exports = {
       white: "#FFFFFF",
       grey: "#EEE2DE",
       peach: "#EA906C",
-      maroon: "#900C3F",
+      maroon: "#BD4B4B",
       navyBlue: "#2B2A4C",
       indigo: "#504099",
       violet: "#4D3C77",
@@ -15,6 +15,8 @@ module.exports = {
       purple: "#974EC3",
       yellow: "#F8DE22",
       offWhite: "#EAEAEA",
+      darkGray: "#B9B4C7",
+      darkerGray: "#D8D9DA",
     },
     extend: {
       fontFamily: {
