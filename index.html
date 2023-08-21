@@ -29,7 +29,7 @@
       class="flex sticky top-0 z-50 justify-between bg-maroon px-14 py-3">
       <a
         href="#hero-section"
-        class="font-raleway font-bold text-4xl text-offWhite tracking-wide hover:animate-pulse cursor-pointer">
+        class="font-raleway font-bold md:text-4xl text-offWhite tracking-wide hover:animate-pulse cursor-pointer">
         Pulsee 2.0
       </a>
       <div
@@ -64,16 +64,14 @@
     <!-- Hero Section -->
     <section
       id="hero-section"
-      class="bg-maroon text-grey px-14 py-3 flex justify-between font-raleway">
+      class="bg-maroon text-grey px-14 py-3 flex flex-col md:flex-row justify-between font-raleway">
       <div data-aos="fade-right">
-        <h1 class="text-lg">
-          "Program for Understanding, Learning, Service, Education and
-          Excellence"
-        </h1>
-        <h1>Newsletter 2023 Vol-2 ,Issue-I</h1>
+        <h1 class="font-roboto-condensed">Newsletter 2023 Vol-2 ,Issue-I</h1>
       </div>
-      <div data-aos="fade-left" class="flex items-end gap-4">
-        <div class="text-right">
+      <div
+        data-aos="fade-left"
+        class="flex flex-col md:flex-row md:items-end gap-4">
+        <div class="md:text-right">
           <h1>Department Of M.Tech Computer Science And Engineering</h1>
           <h1>(Integrated 5-years) - Powered By</h1>
         </div>
@@ -83,13 +81,15 @@
       </div>
     </section>
     <!-- About -->
-    <section id="about-section" class="text-black font-quicksand flex">
-      <div class="px-14 py-6 w-1/2 bg-darkGray space-y-5">
+    <section
+      id="about-section"
+      class="text-black font-quicksand flex flex-col md:flex-row">
+      <div class="px-14 py-6 md:w-1/2 bg-darkGray space-y-5">
         <div class="space-y-5">
-          <h1 data-aos="fade-up" class="text-3xl font-bold">
+          <h1 data-aos="fade-up" class="text-xl md:text-3xl font-bold">
             Vision of the department
           </h1>
-          <p data-aos="fade-up" class="font-old-standard text-lg">
+          <p data-aos="fade-up" class="font-old-standard md:text-lg">
             To be a pioneer in providing industry and research focused
             integrated curriculum in computer science and engineering and to
             transform young minds to sustain technically and compete globally
@@ -98,14 +98,14 @@
           </p>
         </div>
         <div class="space-y-5">
-          <h1 data-aos="fade-up" class="text-3xl font-bold">
+          <h1 data-aos="fade-up" class="text-xl md:text-3xl font-bold">
             Mission of the department
           </h1>
-          <p data-aos="fade-up" class="font-old-standard text-lg">
+          <p data-aos="fade-up" class="font-old-standard md:text-lg">
             Department of M.Tech Computer Science and Engineering, Sri Sai Ram
             Engineering College is committed to
           </p>
-          <ul data-aos="fade-up" class="font-old-standard text-lg list-disc">
+          <ul data-aos="fade-up" class="font-old-standard md:text-lg list-disc">
             <li>
               Accelerate the learning process by collaborating undergraduate
               fundamentals & postgraduate focused learning & research.
@@ -123,15 +123,15 @@
           </ul>
         </div>
       </div>
-      <div class="px-14 py-6 w-1/2 bg-darkerGray space-y-5">
+      <div class="px-14 py-6 md:w-1/2 bg-darkerGray space-y-5">
         <div class="space-y-5">
           <h1 data-aos="fade-right" class="text-3xl font-bold">
             Programme Educational Outcomes (PEO)
           </h1>
           <ul data-aos="fade-right" class="list-disc font-old-standard">
             <li>
-              <div class="flex">
-                <p class="font-bold w-[10%]">PEO 1</p>
+              <div class="md:flex">
+                <p class="font-bold md:w-[10%]">PEO 1</p>
                 <p class="w-[90%]">
                   Graduates will have solid and sound basics in Mathematics,
                   Scientific and Engineering fundamentals necessary to
@@ -141,8 +141,8 @@
               </div>
             </li>
             <li>
-              <div class="flex">
-                <p class="font-bold w-[10%]">PEO 2</p>
+              <div class="md:flex">
+                <p class="font-bold md:w-[10%]">PEO 2</p>
                 <p class="w-[90%]">
                   Graduates will have the capability to work effectively as
                   Computer Science Engineers, including supportive and
@@ -151,8 +151,8 @@
               </div>
             </li>
             <li>
-              <div class="flex">
-                <p class="font-bold w-[10%]">PEO 3</p>
+              <div class="md:flex">
+                <p class="font-bold md:w-[10%]">PEO 3</p>
                 <p class="w-[90%]">
                   Graduates will have the potential to participate in life-long
                   learning through the successful completion of higher degrees,
@@ -162,8 +162,8 @@
               </div>
             </li>
             <li>
-              <div class="flex">
-                <p class="font-bold w-[10%]">PEO 4</p>
+              <div class="md:flex">
+                <p class="font-bold md:w-[10%]">PEO 4</p>
                 <p class="w-[90%]">
                   Graduates will have the ability to apply the gained knowledge
                   to improve the society ensuring ethical and moral values.
@@ -173,7 +173,7 @@
           </ul>
         </div>
         <div class="space-y-5">
-          <h1 data-aos="fade-left" class="text-3xl font-bold">
+          <h1 data-aos="fade-left" class="text-xl md:text-3xl font-bold">
             Program Specific Outcomes (PSO's)
           </h1>
           <p data-aos="fade-left" class="font-old-standard">
@@ -192,13 +192,16 @@
     <!-- Messages -->
     <section
       id="dean-messages"
-      class="bg-offWhite font-quicksand px-14 py-6 space-y-6">
+      class="bg-offWhite font-quicksand md:px-14 py-6 md:space-y-6">
       <!-- CEO Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           Chairman & CEO's Message
         </h1>
-        <div class="flex gap-5 justify-around items-center">
+        <div
+          class="flex flex-col md:flex-row md:gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-right"
@@ -238,10 +241,13 @@
       </div>
       <!-- Principal Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           Principal's Message
         </h1>
-        <div class="flex gap-5 justify-around flex-row-reverse items-center">
+        <div
+          class="flex flex-col md:flex-row-reverse gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-left"
@@ -281,10 +287,13 @@
       </div>
       <!-- Dean Student Affairs Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl mdtext-3xl text-center">
           Dean Student Affairs' Message
         </h1>
-        <div class="flex gap-5 justify-around items-center">
+        <div
+          class="flex flex-col md:flex-row gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-right"
@@ -324,10 +333,13 @@
       </div>
       <!-- Dean Academics Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           Dean Academics' Message
         </h1>
-        <div class="flex gap-5 justify-around items-center flex-row-reverse">
+        <div
+          class="flex flex-col md:flex-row-reverse gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-left"
@@ -368,10 +380,13 @@
       </div>
       <!-- Dean Innovation Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           Dean Innovation's Message
         </h1>
-        <div class="flex gap-5 justify-around items-center">
+        <div
+          class="flex flex-col md:flex-row gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-right"
@@ -413,10 +428,13 @@
       </div>
       <!-- Dean Placement Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           Dean Placement's Message
         </h1>
-        <div class="flex gap-5 justify-around items-center flex-row-reverse">
+        <div
+          class="flex gap-5 justify-around items-center flex-col md:flex-row-reverse">
           <!-- Image -->
           <div
             data-aos="zoom-out-left"
@@ -454,10 +472,13 @@
       </div>
       <!-- HOD Message -->
       <div class="space-y-6">
-        <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
+        <h1
+          data-aos="fade-down"
+          class="font-bold text-xl md:text-3xl text-center">
           HOD's Message
         </h1>
-        <div class="flex gap-5 justify-around items-center">
+        <div
+          class="flex flex-col md:flex-row gap-5 justify-around items-center">
           <!-- Image -->
           <div
             data-aos="zoom-out-right"
@@ -505,19 +526,19 @@
       </div>
     </section>
     <!-- Events -->
-    <section id="events" class="font-quicksand px-14 py-12 space-y-5">
+    <section id="events" class="font-quicksand md:px-14 py-12 space-y-5">
       <h1 data-aos="fade-down" class="font-bold text-3xl text-center">
         Events
       </h1>
       <!-- Virtusa MOU -->
-      <div class="flex gap-6 items-center">
-        <div data-aos="zoom-out-right" class="h-80 w-1/2 rounded-xl">
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div data-aos="zoom-out-right" class="h-80 w-[70%] md:w-1/2 rounded-xl">
           <img
             src="./images/event/VirtusaMou.jpg"
             alt="virtusa-mou"
             class="shadow-2xl object-cover mx-auto h-full" />
         </div>
-        <div data-aos="zoom-out-left" class="w-1/2">
+        <div data-aos="zoom-out-left" class="md:w-1/2 w-[90%]">
           <h1 class="font-bold text-xl">Virtusa MOU</h1>
           <p class="font-old-standard">
             Successfully signed MOU between MTech CSE Sri Sairam Engineering
@@ -536,14 +557,14 @@
         </div>
       </div>
       <!-- Virtusa Roadmap -->
-      <div class="flex flex-row-reverse gap-6 items-center">
-        <div data-aos="zoom-out-left" class="h-80 w-1/2 rounded-xl">
+      <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+        <div data-aos="zoom-out-left" class="h-80 md:w-1/2 rounded-xl">
           <img
             src="./images/event/virtusaposter.jpeg"
             alt="roapmap-virtusa"
             class="shadow-2xl object-cover mx-auto h-full" />
         </div>
-        <div data-aos="zoom-out-right" class="w-1/2">
+        <div data-aos="zoom-out-right" class="w-[90%] md:w-1/2">
           <h1 class="font-bold text-xl">
             Orientation on "ROADMAP FOR ENABLING INDUSTRY READINESS"
           </h1>
@@ -564,14 +585,14 @@
         </div>
       </div>
       <!-- Innerve - Virtusa Codeathon -->
-      <div class="flex gap-6 items-center">
+      <div class="flex flex-col md:flex-row gap-6 items-center">
         <div data-aos="zoom-out-right" class="h-80 w-1/2 rounded-xl">
           <img
             src="./images/event/Innerveposter.png"
             alt="INNERVE"
             class="shadow-2xl object-cover mx-auto h-full" />
         </div>
-        <div data-aos="zoom-out-left" class="w-1/2">
+        <div data-aos="zoom-out-left" class="w-[90%] md:w-1/2">
           <h1 class="font-bold text-xl">
             INNERVE - a techstack codeathon - conducted by Virtusa
           </h1>
@@ -601,14 +622,14 @@
         </div>
       </div>
       <!-- Sai Info Blitz -->
-      <div class="flex flex-row-reverse gap-6 items-center">
+      <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
         <div data-aos="zoom-out-left" class="h-80 w-1/2 rounded-xl">
           <img
             src="./images/event/InfoBlitz.png"
             alt="info-blitz"
             class="shadow-2xl object-cover mx-auto h-full" />
         </div>
-        <div data-aos="zoom-out-right" class="w-1/2">
+        <div data-aos="zoom-out-right" class="w-[90%] md:w-1/2">
           <h1 class="font-bold text-xl">Inaugration OF Sai Info-Blitz</h1>
           <p class="font-old-standard">
             The Inaugural Function was led by Dr.M.Nithya, Head of the
@@ -637,14 +658,14 @@
         </div>
       </div>
       <!-- Innovatia -->
-      <div class="flex gap-6 items-center">
+      <div class="flex flex-col md:flex-row gap-6 items-center">
         <div data-aos="zoom-out-right" class="h-80 w-1/2 rounded-xl">
           <img
             src="images/event/Innovatiaposter.jpeg"
             alt="Innovatia"
             class="shadow-2xl object-cover mx-auto h-full" />
         </div>
-        <div data-aos="zoom-out-left" class="w-1/2">
+        <div data-aos="zoom-out-left" class="w-[90%] md:w-1/2">
           <h1 class="font-bold text-xl">Innovatia 1.0 - Techfest</h1>
           <p class="font-old-standard">
             On behalf of IEEE-System Man and Cybernetics society & in
@@ -669,19 +690,126 @@
       </div>
     </section>
     <!-- Achievements -->
-    <section id="achievements" class="bg-grey space-y-12 px-14 py-8 font-roboto-condensed">
-      <h1 data-aos="fade-down" class="font-bold text-3xl text-center font-quicksand">
+    <section
+      id="achievements"
+      class="bg-grey space-y-12 px-14 py-8 font-roboto-condensed">
+      <h1
+        data-aos="fade-down"
+        class="font-bold text-3xl text-center font-quicksand">
         Achievements
       </h1>
+      <!-- NCC - Agilan -->
+      <div class="flex flex-col md:flex-row-reverse items-center">
+        <div
+          data-aos="flip-right"
+          class="flex flex-col md:flex-row md:w-1/2 md:h-96">
+          <img
+            src="./images/Acheivements/NCC/agilan4.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+          <img
+            src="./images/Acheivements/NCC/agilan1.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech
+            CSE has achieved a remarkable feat by securing the second position
+            in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING
+            COMPETITION. This esteemed event took place in Thiruvananthapuram,
+            Kerala, spanning from July 3rd to July 6th, 2023.
+          </p>
+        </div>
+      </div>
+      <!-- IEEE Fund -->
+      <div class="flex flex-col md:flex-row items-center">
+        <div data-aos="flip-right" class="md:w-1/2 md:h-80">
+          <img
+            src="./images/Acheivements/IEEE/Ieeefunding.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            IEEE Sri Sai Ram Engineering College, SMC28, System, Man and
+            Cybernetics (SMC) / IEEE Madras Section, has been selected to
+            receive a $210 support fund from the IEEE R10 Humanitarian
+            Sustainable Project & Volunteer Training Support Fund 2023. Our
+            project, "From Trash to Treasure: Uniting Waste Management and
+            Mushroom Cultivation for a Sustainable Society," has been recognized
+            for its potential to make a positive impact on our community and the
+            environment. This incredible opportunity showcases the power of
+            entrepreneurship in driving positive change for our community and
+            the environment.
+          </p>
+        </div>
+      </div>
+      <!-- IEEE Yessist -->
+      <div class="flex flex-col md:flex-row-reverse items-center">
+        <div data-aos="flip-right" class="w-1/2 h-80">
+          <img
+            src="./images/Acheivements/ieeeyesist.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Ruthi Shankari S, Vaisali S and Pavithra R of 3rd year have been
+            shortlisted for the Grand finale of IEEE Yessist taking place in
+            EGYPT on september 1 and 2. Their project is based on Stress and
+            Anxiety Therapy using AI mobile application. this app serves as a
+            personal guide, offering an array of features designed to address
+            the complex nature of stress and anxiety. The app's unique value
+            lies in its holistic approach, combining evidence-based strategies,
+            expert guidance, and user-friendly functionalities.Aligned with
+            Sustainable Development Goal 3 (Good Health and Well-being), this
+            app is more than just a technological innovation. It's a step
+            towards a world where mental wellness is prioritized and accessible
+            to all.
+          </p>
+        </div>
+      </div>
+      <!-- Intel Unnati -->
+      <div class="flex flex-col md:flex-row items-center">
+        <div data-aos="flip-right" class="w-1/2 h-80">
+          <img
+            src="./images/Acheivements/intelunnati.jpg"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Meet a remarkable achiever whose journey shines brightly. His
+            project, a standout among numerous submissions for the Intel Unnati
+            Industrial Training Programme's challenge focused on creating a
+            simulated FIGO Land Rover (FSM). Guided by determination and
+            supported by a network of mentors, his gratitude extends to Sairam
+            Institutions for nurturing his growth and his department for its
+            guidance. Intel Unnati, an educational transformation platform,
+            played a crucial role, enabling him to enhance his skills across
+            various stages, from designing intricate systems to simulating their
+            functions. The journey reached its pinnacle during an awards
+            ceremony at Intel's Bengaluru office. This distinguished individual
+            was honored with a Rs.30,000 prize, an emblematic Intel t-shirt, and
+            a meaningful gift. With sights set on the horizon, he's eager to
+            leverage his newfound knowledge to make a significant impact in the
+            tech industry. This achievement is not merely a fleeting moment but
+            a stepping stone towards a promising future. His appreciation
+            extends to all those who contributed to this exceptional
+            accomplishment.
+          </p>
+        </div>
+      </div>
       <!-- Ideathon - Sivanesh Team -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-72">
           <img
             src="./images/Acheivements/ideathonsivanesh.png"
             class="object-center object-contain h-full w-full"
             alt="ideathon" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
+        <div data-aos="fade-left" class="md:w-1/2">
           <p>
             SHAHANA DEVI V ,NITHIKA C D ,KEERTHI R , SIVANESH K S Won First
             prize for the project titled “Three Pillars of Social” under SDG
@@ -690,441 +818,387 @@
         </div>
       </div>
       <!-- NSS Event - Sivanesh Essay -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images//Acheivements/sivaneshnss.png" class="object-contain object-center w-96 h-full mx-auto" alt="sivaneshnss" />
+          <img
+            src="./images//Acheivements/sivaneshnss.png"
+            class="object-contain object-center w-96 h-full mx-auto"
+            alt="sivaneshnss" />
         </div>
-        <div data-aos="fade-right" class="w-1/2">
+        <div data-aos="fade-right" class="md:w-1/2">
           <p>
             The National Service Scheme, in association with the English
-            Literary Club and SSEC IEEE Professional Communication Society
-            SBC, conducted an essay competition. M.tech CSE Department student
+            Literary Club and SSEC IEEE Professional Communication Society SBC,
+            conducted an essay competition. M.tech CSE Department student
             SIVANESH K S , won the third prize, receiving a cash award .
           </p>
         </div>
       </div>
       <!-- Industrial Visit to Madras Atomic Power Station -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/atomicpowerstation.png" class="object-contain object-center h-full w-full" alt="atomicpowerstation" />
+          <img
+            src="./images/Acheivements/atomicpowerstation.png"
+            class="object-contain object-center h-full w-full"
+            alt="atomicpowerstation" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
+        <div data-aos="fade-left" class="md:w-1/2">
           <p>
             Sri Sairam College of Engineering and Ministry of Culture, IGCAR,
-            Ariviyal Sangam, Vigyana Bharathi(VIBHA) jointly organized an
-            Essay Writing Competition on Sep 23, 2022, in which our college
-            students SIVANESH K S from M.Tech CSE won the Competition.He got a
+            Ariviyal Sangam, Vigyana Bharathi(VIBHA) jointly organized an Essay
+            Writing Competition on Sep 23, 2022, in which our college students
+            SIVANESH K S from M.Tech CSE won the Competition.He got a
             opportunity to participate in the International Conference on SIR
-            C.V.RAMAN, State level Quiz Competition at DAE Township,
-            Kalpakkam, and an Industrial visit to MAPS(Madras Atomic Power
-            Station) - IGCAR(Indira Gandhi Centre For Atomic Research) on
-            November 5 and 6.He also received the felicitation Certificate and
-            a momento representing the Institution.
+            C.V.RAMAN, State level Quiz Competition at DAE Township, Kalpakkam,
+            and an Industrial visit to MAPS(Madras Atomic Power Station) -
+            IGCAR(Indira Gandhi Centre For Atomic Research) on November 5 and
+            6.He also received the felicitation Certificate and a momento
+            representing the Institution.
           </p>
         </div>
       </div>
       <!-- Kanish Badminton - Dept of PE Sairam -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/kanishbadmiton.png" class="object-contain object-center h-full w-full" alt="badminton" />
+          <img
+            src="./images/Acheivements/kanishbadmiton.png"
+            class="object-contain object-center h-full w-full"
+            alt="badminton" />
         </div>
-        <div data-aos="fade-right" class="w-1/2">
+        <div data-aos="fade-right" class="md:w-1/2">
           <p>
             The Department of Physical Education organized SEETHARAMAN AND
             LAKSHMIAMMAL MEMORIAL TROPHY, An State Level Inter Engineering
-            Tournament on 29.09.2022 & 30.09.2022. M.tech CSE Department
-            student KANISH K won 4th place in the Badminton-Men event. He was
-            awarded with a cash prize and a felicitation certificate.
+            Tournament on 29.09.2022 & 30.09.2022. M.tech CSE Department student
+            KANISH K won 4th place in the Badminton-Men event. He was awarded
+            with a cash prize and a felicitation certificate.
           </p>
         </div>
       </div>
       <!-- Skillfest Ideathon -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/skillfest.png" class="object-contain object-center h-full w-full" alt="skillfest" />
+          <img
+            src="./images/Acheivements/skillfest.png"
+            class="object-contain object-center h-full w-full"
+            alt="skillfest" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
-            <p>
-              The Department of Computer Science and Engineering in association
-              with Skillkora Labs conducted a SKILLFEST'22 -An Ideathon and a
-              24-hr Hackathon Event. The students of the department of M.tech
-              CSE SIVANESH K S, SHRIVANI R, and SHAHANA DEVI V as team-TECHVERSE
-              won 5th place in the Ideathon event. These students were offered a
-              4-week internship with Skillkora Labs and a 50% fee waiver for
-              AI/ML Course.
-            </p>
-          </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            The Department of Computer Science and Engineering in association
+            with Skillkora Labs conducted a SKILLFEST'22 -An Ideathon and a
+            24-hr Hackathon Event. The students of the department of M.tech CSE
+            SIVANESH K S, SHRIVANI R, and SHAHANA DEVI V as team-TECHVERSE won
+            5th place in the Ideathon event. These students were offered a
+            4-week internship with Skillkora Labs and a 50% fee waiver for AI/ML
+            Course.
+          </p>
+        </div>
       </div>
       <!-- IEEE Day Event -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/bid&buzz.png" class="object-contain object-center h-full w-full" alt="skillfest" />
+          <img
+            src="./images/Acheivements/bid&buzz.png"
+            class="object-contain object-center h-full w-full"
+            alt="skillfest" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
-        <p>
-          IEEE student branch conducted an event of BID and BUZZ in the IEEE Day
-          2022 Carnival on 11th October 2022. Our department students JAYASHREE
-          S and JANANI GOWTHAM as a team won first place receiving a cash award
-          and felicitation certificate.
-        </p>
-      </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            IEEE student branch conducted an event of BID and BUZZ in the IEEE
+            Day 2022 Carnival on 11th October 2022. Our department students
+            JAYASHREE S and JANANI GOWTHAM as a team won first place receiving a
+            cash award and felicitation certificate.
+          </p>
+        </div>
       </div>
       <!-- Web Dev Event - SIT Symposium -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/sitsympo.jpg" class="object-contain object-center h-full w-full" alt="skillfest" />
+          <img
+            src="./images/Acheivements/sitsympo.jpg"
+            class="object-contain object-center h-full w-full"
+            alt="skillfest" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Sri Sai Ram Institute of Technology, Department of Computer Science
-          and Engineering conducted a national level symposium - NUTPAM 22. Our
-          students Muthu Aanand SU and Kamalesh Kumar Saravanan of 2nd year
-          M.Tech CSE won 2nd place in the web development contest Calypso's
-          Sculpt and were awarded a merit certificate along with a cash prize.
-        </p>
-      </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Sri Sai Ram Institute of Technology, Department of Computer Science
+            and Engineering conducted a national level symposium - NUTPAM 22.
+            Our students Muthu Aanand SU and Kamalesh Kumar Saravanan of 2nd
+            year M.Tech CSE won 2nd place in the web development contest
+            Calypso's Sculpt and were awarded a merit certificate along with a
+            cash prize.
+          </p>
+        </div>
       </div>
       <!-- Anna University Zonals - Kanish Badminton -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images//Acheivements/skillfest.png" class="object-contain object-center h-full w-full" alt="skillfest" />
+          <img
+            src="./images//Acheivements/skillfest.png"
+            class="object-contain object-center h-full w-full"
+            alt="skillfest" />
         </div>
-        <div data-aos="fade-left" class="w-1/2"></div>
-        <p>
-          Anna University Zone Tournaments 2022-23 was held at Sri Sairam
-          Engineering College in which students of several institutions took
-          part in various events.Our Department student KANISH K won 2nd place
-          in the Badminton-Men event which was held on 16.11.2022 & 17.11.2022.
-          He was awarded a prestigious trophy and a felicitation certificate.
-        </p>
-      </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Anna University Zone Tournaments 2022-23 was held at Sri Sairam
+            Engineering College in which students of several institutions took
+            part in various events. Our Department student KANISH K won 2nd
+            place in the Badminton-Men event which was held on 16.11.2022 &
+            17.11.2022. He was awarded a prestigious trophy and a felicitation
+            certificate.
+          </p>
+        </div>
       </div>
       <!-- UBA Day -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/ubaday.jpg" class="object-contain object-center h-full w-full" alt="skillfest" />
+          <img
+            src="./images/Acheivements/ubaday.jpg"
+            class="object-contain object-center h-full w-full"
+            alt="skillfest" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">
-        <p>
-          The UBA - Unnat Bharat Abhiyan of the Sairam institution celebrated
-          the UBA Day'22 AGNII on 18/11/2022.Our students Yogitha M, Swathika S
-          and Yuvashri A K M of M.Tech CSE department participated in the event
-          NIRMANI (MODEL PRESENTATION) as a team and won the 2nd prize in that
-          Event. They were awarded with the merit certificate and cash prize of
-          rupees 1000/-
-        </p>
-        </div>  
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            The UBA - Unnat Bharat Abhiyan of the Sairam institution celebrated
+            the UBA Day'22 AGNII on 18/11/2022.Our students Yogitha M, Swathika
+            S and Yuvashri A K M of M.Tech CSE department participated in the
+            event NIRMANI (MODEL PRESENTATION) as a team and won the 2nd prize
+            in that Event. They were awarded with the merit certificate and cash
+            prize of rupees 1000/-
+          </p>
+        </div>
       </div>
       <!-- Jeppiar Institute - TECHISETZ'22 -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/jeppiarinsititute.jpg" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Jeppiaar Institute of Technology, Department of Computer Science and
-          Engineering organized TECHISETZ'22 on 26th November 2022. Our
-          Department student SURYA A has secured 2nd place in both Individual
-          Technical events CODEBOT and DEBUGGING receiving a cash award and
-          felicitation certificate. He has also secured 2nd place in a
-          non-technical team event BIOSCOPE receiving a gorgeous momento and a
-          felicitation certificate.
-        </p>
+          <img
+            src="./images/Acheivements/jeppiarinsititute.jpg"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Jeppiaar Institute of Technology, Department of Computer Science and
+            Engineering organized TECHISETZ'22 on 26th November 2022. Our
+            Department student SURYA A has secured 2nd place in both Individual
+            Technical events CODEBOT and DEBUGGING receiving a cash award and
+            felicitation certificate. He has also secured 2nd place in a
+            non-technical team event BIOSCOPE receiving a gorgeous momento and a
+            felicitation certificate.
+          </p>
         </div>
       </div>
       <!-- SSN/SNU - INVENTE'22 -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/ssninvente.jpg" class="object-contain object-center h-full w-full" alt="" />
+          <img
+            src="./images/Acheivements/ssninvente.jpg"
+            class="object-contain object-center h-full w-full"
+            alt="" />
         </div>
-        <div data-aos="fade-left" class="w-1/2">  
-        <p>
-          SSN COLLEGE OF ENGINEERING and SHIV NADAR UNIVERSITY, CHENNAI
-          organised INVENTE'22 - A National Level Technical Fest On 3RD and 4TH
-          of NOVEMBER 2022. This Technical Festival comprises 64 technical, 14
-          non-technical events, and 3 major workshops on state-of-the-art
-          domains. Students from the department of SM.Tech CSE participated
-          actively and won the competition. Our 2nd year department students
-          YOGITHA M, SWATHIKA S, YUVASHRI A K M as a team has placed 2nd in the
-          Paper Presentation Event.
-        </p>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            SSN COLLEGE OF ENGINEERING and SHIV NADAR UNIVERSITY, CHENNAI
+            organised INVENTE'22 - A National Level Technical Fest On 3RD and
+            4TH of NOVEMBER 2022. This Technical Festival comprises 64
+            technical, 14 non-technical events, and 3 major workshops on
+            state-of-the-art domains. Students from the department of SM.Tech
+            CSE participated actively and won the competition. Our 2nd year
+            department students YOGITHA M, SWATHIKA S, YUVASHRI A K M as a team
+            has placed 2nd in the Paper Presentation Event.
+          </p>
         </div>
       </div>
       <!-- Naan Mudhalvan -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/naanmudhalvan.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>  
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Warm congratulations to ABHINESH S of Department M.Tech CSE - II year
-          has been awarded the first prize in the NAAN MUDHAZHVAN - TN Skills
-          2023 for the National Level Hackathon on 05 May 2023 at Anna Centenary
-          Library.
-        </p>
-          </div>
-      </div>
-      <!-- IEEE Fund -->
-      <div class="flex items-center">
-        <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/IEEE/Ieeefunding.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          IEEE Sri Sai Ram Engineering College, SMC28, System, Man and
-          Cybernetics (SMC) / IEEE Madras Section, has been selected to receive
-          a $210 support fund from the IEEE R10 Humanitarian Sustainable Project
-          & Volunteer Training Support Fund 2023. Our project, "From Trash to
-          Treasure: Uniting Waste Management and Mushroom Cultivation for a
-          Sustainable Society," has been recognized for its potential to make a
-          positive impact on our community and the environment. This incredible
-          opportunity showcases the power of entrepreneurship in driving
-          positive change for our community and the environment.
-        </p>
+          <img
+            src="./images/Acheivements/naanmudhalvan.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
         </div>
-      </div>
-      <!-- IEEE Yessist -->
-      <div class="flex flex-row-reverse items-center">
-        <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/ieeeyesist.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Ruthi Shankari S, Vaisali S and Pavithra R of 3rd year have been
-          shortlisted for the Grand finale of IEEE Yessist taking place in EGYPT
-          on september 1 and 2. Their project is based on Stress and Anxiety
-          Therapy using AI mobile application. this app serves as a personal
-          guide, offering an array of features designed to address the complex
-          nature of stress and anxiety. The app's unique value lies in its
-          holistic approach, combining evidence-based strategies, expert
-          guidance, and user-friendly functionalities.Aligned with Sustainable
-          Development Goal 3 (Good Health and Well-being), this app is more than
-          just a technological innovation. It's a step towards a world where
-          mental wellness is prioritized and accessible to all.
-        </p>
-          </div>
-      </div>
-      <!-- Intel Unnati -->
-      <div class="flex items-center">
-        <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/intelunnati.jpg" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Meet a remarkable achiever whose journey shines brightly. His project,
-          a standout among numerous submissions for the Intel Unnati Industrial
-          Training Programme's challenge focused on creating a simulated FIGO
-          Land Rover (FSM). Guided by determination and supported by a network
-          of mentors, his gratitude extends to Sairam Institutions for nurturing
-          his growth and his department for its guidance. Intel Unnati, an
-          educational transformation platform, played a crucial role, enabling
-          him to enhance his skills across various stages, from designing
-          intricate systems to simulating their functions. The journey reached
-          its pinnacle during an awards ceremony at Intel's Bengaluru office.
-          This distinguished individual was honored with a Rs.30,000 prize, an
-          emblematic Intel t-shirt, and a meaningful gift. With sights set on
-          the horizon, he's eager to leverage his newfound knowledge to make a
-          significant impact in the tech industry. This achievement is not
-          merely a fleeting moment but a stepping stone towards a promising
-          future. His appreciation extends to all those who contributed to this
-          exceptional accomplishment.
-        </p>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Warm congratulations to ABHINESH S of Department M.Tech CSE - II
+            year has been awarded the first prize in the NAAN MUDHAZHVAN - TN
+            Skills 2023 for the National Level Hackathon on 05 May 2023 at Anna
+            Centenary Library.
+          </p>
         </div>
       </div>
       <!-- Solveathon - Muthu, Kamalesh, Gurusanjay -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonepds.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Happy to inform that Muthu Annand SU, Guru Sanjay RK and Kamalesh
-          Kumar Saravanan of Dedpartment-M.Tech CSE has won the second prize in
-          Sairam SDG-solveathon 2.0 under goal number 2 - ”Zero Hunger” with a
-          cash prize of ₹750 for their project titled “E-Public Distribution
-          System” guided by Dr.M Nithya.
-        </p>
+          <img
+            src="./images/Acheivements/Solveathon/solveathonepds.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Happy to inform that Muthu Annand SU, Guru Sanjay RK and Kamalesh
+            Kumar Saravanan of Dedpartment-M.Tech CSE has won the second prize
+            in Sairam SDG-solveathon 2.0 under goal number 2 - ”Zero Hunger”
+            with a cash prize of ₹750 for their project titled “E-Public
+            Distribution System” guided by Dr.M Nithya.
+          </p>
         </div>
       </div>
       <!-- Solveathon - Vaishnavi, Preethi, Niveditha -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonpreethi.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Best wishes to Vaishnavi S, Preethi S and Niveditha S of
-          Dedpartment-M.Tech CSE who has won the second prize in Sairam
-          SDG-solveathon 2.0 under goal number 6 - ”Clean water and sanitation”
-          with a cash prize of ₹750 for their project titled “Solar power
-          automated monitoring agriculture system” guided by Dr.M Nithya.
-        </p>
-          </div>
+          <img
+            src="./images/Acheivements/Solveathon/solveathonpreethi.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Best wishes to Vaishnavi S, Preethi S and Niveditha S of
+            Dedpartment-M.Tech CSE who has won the second prize in Sairam
+            SDG-solveathon 2.0 under goal number 6 - ”Clean water and
+            sanitation” with a cash prize of ₹750 for their project titled
+            “Solar power automated monitoring agriculture system” guided by Dr.M
+            Nithya.
+          </p>
+        </div>
       </div>
       <!-- Solveathon - Swathika, Yuvashri, Yogitha -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonswatikayuvashree.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Congratulations to Swathika S, Yuvashri AKM and yogitha M of
-          Dedpartment-M.Tech CSE has won the first prize in Sairam
-          SDG-solveathon 2.0 under goal number 6 - ”Clean water and sanitation”
-          with a cash prize of ₹1000 for their project titled “Designing an
-          artificial based robot to clean the clog and clog detection” guided by
-          Mrs.Shiny A.
-        </p>
-          </div>
+          <img
+            src="./images/Acheivements/Solveathon/solveathonswatikayuvashree.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Congratulations to Swathika S, Yuvashri AKM and yogitha M of
+            Dedpartment-M.Tech CSE has won the first prize in Sairam
+            SDG-solveathon 2.0 under goal number 6 - ”Clean water and
+            sanitation” with a cash prize of ₹1000 for their project titled
+            “Designing an artificial based robot to clean the clog and clog
+            detection” guided by Mrs.Shiny A.
+          </p>
+        </div>
       </div>
       <!-- Solveathon - Sivanesh, Sri Charith, Ramanathan -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonchamps.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          A follow-up event of Sairam SDG-Ideathon 2.0 which was an initiative
-          of an Engineering & Technology campus to generate mass
-          Entrepreneurship was conducted on 20.04.2023. Promoting “One Student
-          One Startup” was the primary goal of this event. Hearty
-          congratulations to Sivanesh KS, Sri Charith AG and Ramanathan K of
-          Department - M.Tech CSE who has won the “Overall Championship” of
-          Sairam Institutions in the Sairam SDG-Solveathon 2.0 conducted on
-          20.04.2023&21.04.2023 for their project titled “IOT powered vehicle
-          maintenance and tracking system” guided by Mrs.Nandhini Devi S with a
-          cash prize of ₹2500.
-        </p>
-          </div>
+          <img
+            src="./images/Acheivements/Solveathon/solveathonchamps.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            A follow-up event of Sairam SDG-Ideathon 2.0 which was an initiative
+            of an Engineering & Technology campus to generate mass
+            Entrepreneurship was conducted on 20.04.2023. Promoting “One Student
+            One Startup” was the primary goal of this event. Hearty
+            congratulations to Sivanesh KS, Sri Charith AG and Ramanathan K of
+            Department - M.Tech CSE who has won the “Overall Championship” of
+            Sairam Institutions in the Sairam SDG-Solveathon 2.0 conducted on
+            20.04.2023&21.04.2023 for their project titled “IOT powered vehicle
+            maintenance and tracking system” guided by Mrs.Nandhini Devi S with
+            a cash prize of ₹2500.
+          </p>
+        </div>
       </div>
       <!-- Ideathon - Rakesh, Afra, Abhinaya -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonjunios.png" class="object-contain object-center h-full w-full" alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Hearty congratulations to R.RAKESH (TL), AFRA MARIYAM.A, ABHIENAYA
-          SRI.S and THRISALA.K of Department - M.Tech CSE (2022-2027 Batch) who
-          has won the “Overall Championship” of Sairam Institutions in the
-          Sairam SDG-Ideathon 3.0 conducted on 01.06.2023 & 02.06.2023 for their
-          project titled “Biotic Progression of Turbid water using Nirmali
-          Seeds” under SDG Goal-6.
-        </p>
-        </div>  
+          <img
+            src="./images/Acheivements/Solveathon/solveathonjunios.png"
+            class="object-contain object-center h-full w-full"
+            alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Hearty congratulations to R.RAKESH (TL), AFRA MARIYAM.A, ABHIENAYA
+            SRI.S and THRISALA.K of Department - M.Tech CSE (2022-2027 Batch)
+            who has won the “Overall Championship” of Sairam Institutions in the
+            Sairam SDG-Ideathon 3.0 conducted on 01.06.2023 & 02.06.2023 for
+            their project titled “Biotic Progression of Turbid water using
+            Nirmali Seeds” under SDG Goal-6.
+          </p>
+        </div>
       </div>
       <!-- Ideathon - Rakesh, Adithya, Aldous, Shreya -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonfirstyears.png" class="object-contain object-center h-full w-full alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Hearty congratulations to R.RAKESH (TL),ADITHYA.S.J,ALDOUS ROY &SHREYA
-          of Department -M.Tech-CSE(2022-2027 Batch) who has won the 2nd prize
-          of Sairam Institutions in the Sairam SDG-Ideathon 3.0 conducted on
-          01.06.2023 & 02.06.2023 for their project titled “Eradication of
-          Unwanted plants from Water Bodies” under SDG Goal 14.
-        </p>
+          <img src="./images/Acheivements/Solveathon/solveathonfirstyears.png"
+          class="object-contain object-center h-full w-full alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Hearty congratulations to R.RAKESH (TL),ADITHYA.S.J,ALDOUS ROY
+            &SHREYA of Department -M.Tech-CSE(2022-2027 Batch) who has won the
+            2nd prize of Sairam Institutions in the Sairam SDG-Ideathon 3.0
+            conducted on 01.06.2023 & 02.06.2023 for their project titled
+            “Eradication of Unwanted plants from Water Bodies” under SDG Goal
+            14.
+          </p>
         </div>
       </div>
       <!-- Ideathon - Devadarshan, Parthiban, Geetha, Rashni -->
-      <div class="flex flex-row-reverse items-center">
+      <div class="flex flex-col md:flex-row-reverse items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
-          <img src="./images/Acheivements/Solveathon/solveathonfirstyear.png" class="object-contain object-center h-full w-full alt="" />
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Hearty congratulations to DEVADARSHAN.R,PARTHIBAN.J,GEETHA RASHNI.K.S
-          SARANYA.S of Department -M.Tech-CSE(2022-2027 Batch) who has won the
-          First prize of Sairam Institutions in the Sairam SDG-Ideathon 3.0
-          conducted on 01.06.2023 & 02.06.2023 for their project titled “Beg to
-          Invest” under SDG Goal 1.
-        </p>
+          <img src="./images/Acheivements/Solveathon/solveathonfirstyear.png"
+          class="object-contain object-center h-full w-full alt="" />
+        </div>
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Hearty congratulations to DEVADARSHAN.R,PARTHIBAN.J,GEETHA
+            RASHNI.K.S SARANYA.S of Department -M.Tech-CSE(2022-2027 Batch) who
+            has won the First prize of Sairam Institutions in the Sairam
+            SDG-Ideathon 3.0 conducted on 01.06.2023 & 02.06.2023 for their
+            project titled “Beg to Invest” under SDG Goal 1.
+          </p>
         </div>
       </div>
       <!-- Madrasda -->
-      <div class="flex items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <div data-aos="flip-right" class="w-1/2 h-80">
           <img
             src="./images/Acheivements/madrasda.png"
             class="object-contain object-center h-full w-full"
-            alt=""
-          /> 
-          </div>
-          <div data-aos="fade-left" class="w-1/2">
-        <p>
-          Muthu Aanand. SU and Kamalesh Kumar Saravanan, got an opportunity at
-          the Sairam Techno Incubation Foundation Centre on the challenging task
-          of developing a merchandise website for a business named 'Madrasda'.
-          Utilizing the powerful capabilities of Next.js for the frontend and
-          Spring Boot for the backend, they created an efficient, user-friendly
-          platform to showcase the brand's offerings. Deploying the site on
-          Google Cloud further augmented its scalability and performance. This
-          experience not only honed my technical skills but also enriched my
-          understanding of seamless digital product development. Through this
-          project, they learned the importance of integrating various
-          technologies for a cohesive outcome and gained insights into cloud
-          deployment and its advantages for business scalability
-        </p>
+            alt="" />
         </div>
-      </div>
-      <!-- NCC - Agilan -->
-      <h1>RISING STAR - FC AGILAN AMARNATH</h1>
-      <h1>Man paving his way creating wonders</h1>
-      <div class="flex flex-row-reverse items-center">
-        <div data-aos="flip-right" class="w-1/2 h-96 ">
-          <img
-          src="./images/Acheivements/NCC/agilan4.png"
-          class="object-contain object-center h-full w-full"
-          alt=""
-          />
+        <div data-aos="fade-left" class="md:w-1/2">
+          <p>
+            Muthu Aanand. SU and Kamalesh Kumar Saravanan, got an opportunity at
+            the Sairam Techno Incubation Foundation Centre on the challenging
+            task of developing a merchandise website for a business named
+            'Madrasda'. Utilizing the powerful capabilities of Next.js for the
+            frontend and Spring Boot for the backend, they created an efficient,
+            user-friendly platform to showcase the brand's offerings. Deploying
+            the site on Google Cloud further augmented its scalability and
+            performance. This experience not only honed my technical skills but
+            also enriched my understanding of seamless digital product
+            development. Through this project, they learned the importance of
+            integrating various technologies for a cohesive outcome and gained
+            insights into cloud deployment and its advantages for business
+            scalability
+          </p>
         </div>
-        <div data-aos="fade-left" class="w-1/2"></div>
-        <p>
-          Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE
-          has achieved a remarkable feat by securing the second position in the
-          prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION.
-          This esteemed event took place in Thiruvananthapuram, Kerala, spanning
-          from July 3rd to July 6th, 2023. The competition unfolded in a series
-          of seven camps, with the journey commencing at the CATC-I CUM FIRING
-          SELECTION camp held from April 8th to April 17th, 2023, at Pachyappas
-          College in Kancheepuram. Drawing participants from over 160 colleges
-          and 30+ schools, this initial stage culminated in the selection of 21
-          cadets who advanced to the subsequent camp. Among this talented group
-          was Agilan Amarnath. The next stage, known as the IGC CHAMPIONSHIP
-          FIRING CAMP, unfolded from April 18th to April 27th, 2023, at Kongu
-          Medical College in Erode. This camp brought together cadets from
-          Coimbatore group, Trichy group, Madurai group, Pondicherry group, and
-          Madras 'A' and 'B' groups. The rigorous competition resulted in
-          further shortlisting, leading to a sequence of three successive camps:
-          INTER DIRECTORATE SPORTS SHOOTING COMPETITION TRAINING CAMP 1 &
-          TRAINING CAMP 2 (May 13th to June 2nd, 2023), INTER DIRECTORATE SPORTS
-          SHOOTING COMPETITION LAUNCH CAMP 1 (June 12th to June 21st, 2023), and
-          INTER DIRECTORATE SPORTS SHOOTING COMPETITION LAUNCH CAMP 2 (June 23rd
-          to July 2nd, 2023). Dedication, skill, and perseverance were the
-          cornerstones of Agilan's success. Among the pool of participants, he
-          emerged as one of the top 9 performers, thereby earning a coveted spot
-          in the ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION.
-          Representing the TAMIL NADU Puducherry and Andaman Nicobar directorate
-          team, Agilan Amarnath's exceptional performance led him to secure the
-          Runner-Up position. Agilan's achievement stands as a testament to his
-          talent and commitment, bringing pride not only to our Department but
-          to the entire institution. We extend our heartfelt congratulations to
-          Agilan and wish him continued success in all his future endeavors.
-        </p>
-      </div>
       </div>
       <!-- Pranav 2023 - Paper Presentation -->
-      <div>
-        <p>
-          SIVANESH K S, MOHAMMED RIZWAN M, PRASANNA KUMAR L of II year MTech
-          CSE(2021-2026 batch) won the first prize in the TECH TALKS (Paper
-          Presentation) event with a Cash award of Rs. 2000/- in the PRANAV 2K23
-          - National level Technical Symposium hosted by the Department of
-          Electronics and Communication Engineering & ELECSA of Meenakshi
-          Sundararajan Engineering College on 23.03.2023.
-        </p>
+      <div class="flex flex-col md:flex-row items-center">
+        <div data-aos="flip-right" class="w-1/2 h-96">
+          <img src="./images/Acheivements/techtalks.png" alt="pranav-2023" />
+        </div>
+        <div data-aos="fade-right" class="md:w-1/2">
+          <p>
+            SIVANESH K S, MOHAMMED RIZWAN M, PRASANNA KUMAR L of II year MTech
+            CSE(2021-2026 batch) won the first prize in the TECH TALKS (Paper
+            Presentation) event with a Cash award of Rs. 2000/- in the PRANAV
+            2K23 - National level Technical Symposium hosted by the Department
+            of Electronics and Communication Engineering & ELECSA of Meenakshi
+            Sundararajan Engineering College on 23.03.2023.
+          </p>
+        </div>
       </div>
     </section>
     <!-- Footer -->
