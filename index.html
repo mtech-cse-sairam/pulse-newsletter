@@ -22,10 +22,52 @@
       crossorigin="anonymous"></script>
   </head>
   <style>
-    table,
+    table{
+      width: 100%;
+    }
     th,
     td {
       border: 1px solid black;
+    }
+    @media (max-width: 800px) {
+      th{
+        display: none;
+      }
+      td{
+        display: grid;
+        grid-template-columns: 15ch auto;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+      }
+      td:first-child{
+        padding-top: 1rem;
+      }
+      td:last-child{
+        padding-bottom: 1rem;
+      }
+      td::before{
+        font-weight: 700;
+        text-transform: capitalize;
+      }
+      td:nth-of-type(1)::before{
+        content: "S no. ";
+      }
+      td:nth-of-type(2)::before{
+        content: "NAME : ";
+      }
+      td:nth-of-type(3)::before{
+        content: "Name of the FDP/STTP : ";
+      }
+      td:nth-of-type(4)::before{
+        content: "DATE : ";
+      }
+      td:nth-of-type(5)::before{
+        content: "Conducted By : ";
+      }
+      td:nth-of-type(6)::before{
+        content: "Area of specilization : ";
+      }
+      
     }
   </style>
   <body class="relative">
@@ -1258,8 +1300,8 @@
           <th>Area of specilization</th>
         </tr>
         <tr>
-          <td>1</td>
-          <td>NITHYA M</td>
+          <td >1</td>
+          <td >NITHYA M</td>
           <td>Microsoft Power BI Data Analyst</td>
           <td>24/04/2023 - 28/04/2023</td>
           <td>ICT ACADEMY</td>
