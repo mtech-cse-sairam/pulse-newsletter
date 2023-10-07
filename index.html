@@ -28,23 +28,46 @@
 
   table {
     width: 100%;
+    text-align: center;
+    border-collapse: collapse;
   }
 
   th,
   td {
-    border: 1px solid black;
+    border: 1px solid #DDD;
+    padding: 8px;
+    
   }
 
+  table tr:nth-child(odd) {
+    background-color: #F1E8E5;
+  }
+
+  th {
+    background-color: #F0E5E1;
+  }
+
+  tr {
+    transition: all .15s ease;
+  }
+
+  tr:hover {
+    transform: scale(1.05);
+  }
+  tbody tr td:nth-child(5){
+    text-align: left; 
+  }
   @media (max-width: 800px) {
     th {
       display: none;
     }
-
+    
     td {
       display: grid;
       grid-template-columns: 15ch auto;
       gap: 0.5rem;
       padding: 0.5rem 1rem;
+      text-align: left;
     }
 
     td:first-child {
@@ -1212,29 +1235,33 @@
       </div>
       <div data-aos="fade-right" class="md:w-1/2">
         <p>
-          SURYA A, SIVANESH K S of Mtech CSE and NAREN KUMAR S S of CSE departments won the first prize with cash award of Rs 3500 in the INNOVENTURE Event conducted by TECHNOVIT, at VIT CHENNAI.
+          SURYA A, SIVANESH K S of Mtech CSE and NAREN KUMAR S S of CSE departments won the first prize with cash award
+          of Rs 3500 in the INNOVENTURE Event conducted by TECHNOVIT, at VIT CHENNAI.
         </p>
       </div>
     </div>
     <!-- Kanish Badminton SRM Valliamai College -->
     <div class="flex flex-col md:flex-row items-center">
-      <div data-aos="flip-left" class="md:w-1/2 md:h-96 w-full" > 
+      <div data-aos="flip-left" class="md:w-1/2 md:h-96 w-full">
         <img src="./images/Acheivements/KanishBadminton.jpeg" alt="SRM Valliamai College Badminton">
       </div>
       <div data-aos="fade-right" class="md:w-1/2">
         <p>
-          Kanish of Department of Mtech CSE won the runner up trophy in the badminton Tournament held in SRM Valliamai College of Engineering on 6.10.2023  
+          Kanish of Department of Mtech CSE won the runner up trophy in the badminton Tournament held in SRM Valliamai
+          College of Engineering on 6.10.2023
         </p>
       </div>
     </div>
     <!-- Sivanesh SRM -->
     <div class="flex flex-col md:flex-row-reverse  items-center">
-      <div data-aos="flip-left" class="md:w-1/2 md:h-1/2 w-full" > 
+      <div data-aos="flip-left" class="md:w-1/2 md:h-1/2 w-full">
         <img src="./images/Acheivements/SivaneshSRM.jpeg" alt="SRM Valliamai College Badminton">
       </div>
       <div data-aos="fade-right" class="md:w-1/2">
         <p>
-          SURYA A, SIVANESH K S of Mtech CSE, NAREN KUMAR S S of CSE and VIKASH K V of EIE departments won the first prize with cash award of Rs 3000 in the TECHNO THINK, ALTRUIX Event conducted by Department of AIDS at SRM VALLIAMMAI ENGINEERING COLLEGE on 7.10.2023  
+          SURYA A, SIVANESH K S of Mtech CSE, NAREN KUMAR S S of CSE and VIKASH K V of EIE departments won the first
+          prize with cash award of Rs 3000 in the TECHNO THINK, ALTRUIX Event conducted by Department of AIDS at SRM
+          VALLIAMMAI ENGINEERING COLLEGE on 7.10.2023
         </p>
       </div>
     </div>
@@ -1253,7 +1280,7 @@
           <th>Staff Name</th>
           <th>Name of the FDP/STTP</th>
           <th>Date</th>
-          <th> Conducted By</th>
+          <th class="conducted"> Conducted By</th>
           <th>Area of specilization</th>
         </tr>
         <tr>
