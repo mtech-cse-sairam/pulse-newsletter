@@ -20,6 +20,29 @@ const getAchievementComponent = (content, images, index) => {
   return component;
 };
 
+const getEventOrAwardComponent = (content, title, image, index) => {
+  const component = `
+    <div class="flex flex-col ${
+      index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+    } gap-6 items-center">
+      <div data-aos=${
+        index % 2 !== 0 ? "zoom-out-left" : "zoom-out-right"
+      } class="h-80 w-[70%] md:w-1/2 rounded-xl">
+        <img src=${image} alt=${title} class="shadow-2xl object-cover mx-auto h-full" />
+      </div>
+      <div data-aos=${
+        index % 2 === 0 ? "zoom-out-left" : "zoom-out-right"
+      } class="md:w-1/2 w-[90%]">
+        <h1 class="font-bold text-xl">${title}</h1>
+        <p class="font-old-standard">
+          ${content}
+        </p>
+      </div>
+    </div>
+  `;
+  return component;
+};
+
 const getImageComponent = (images) => {
   let imagesComponent = "";
   images.forEach((item) => {
@@ -350,6 +373,103 @@ const achievementData = [
   },
 ];
 
+const eventData = [
+  {
+    title: "Virtusa MOU",
+    content:
+      "Successfully signed MOU between MTech CSE Sri Sairam Engineering College and Virtusa for academics and industry collaboration on 21st March 2022. This proud initiative was felicitated by our honorable CEO Shri Sai Prakash along with the Virtusa dignitaries Mr.Raghuveer Subodha -Sr Vice president & Global Head Emerging Technologies,Mr.Narayanan S- Vice President & Technology Head,Ms. Mohanapriya S -Associate Director, Capability & transformation Team,Mr.Krithivasan S- Team Graduate Talent Program(Global University Strategy & Relationship) & Ms.Geetanjali S-Team Graduate Talent Program benefiting the department students with advanced industry based learning, so they can transition into potential candidates with desired skills as expected by industry world.",
+    image: "./images/event/VirtusaMou.jpg",
+  },
+  {
+    title: 'Orientation on "ROADMAP FOR ENABLING INDUSTRY READINESS"',
+    content: `I'm pleased to share my experience at the "ROADMAP FOR ENABLING
+          INDUSTRY READINESS" orientation session offered by Mr. Rajkumar
+          Sivasubramanian (Associate Director, Capability & Transformation
+          Team) and Ms. Arati Kumari (Executive-HR) from VIRTUSA, Chennai. We
+          were given a fantastic presentation on how to get to the point of
+          being able to meet industry standards. We were taught about the
+          importance of topics like Full Stack Development and programming
+          languages like JAVA, as well as their commercial applications. We
+          learnt about the firm by taking a mentimeter quiz, which was a lot
+          of fun. The duo led the session in the most interactive and
+          enjoyable manner imaginable, and they were really educated and
+          motivated us to learn more.`,
+    image: "./images/event/virtusaposter.jpeg",
+  },
+  {
+    title: "INNERVE - a techstack codeathon - conducted by Virtusa",
+    content: `In collaboration with Virtusa, The Department of M.Tech CSE hosted a
+          full stack development codeathon for M.Tech CSE students. The
+          problem statements were provided by the Virtusa team, and the
+          students were divided into five teams of twelve students each. In
+          the form of a presentation, the teams are required to examine the
+          problem statements and provide use cases and technologies that will
+          be employed for the project. Before the deadline, students were
+          required to produce a functioning web application. The first review
+          meeting was held two days after the problem statements were provided
+          by the Virtusa team, which included Mr.Rajkumar Sivasubramanian
+          (Associate Director, Capability & Transformation Team) and Ms.Mohana
+          Priya (Associate Director, Capability & Transformation Team). They
+          conducted the meeting and went over the use-case diagrams for the
+          website that the students would build during the codeathon. They
+          provided us various technology stack alternatives for constructing
+          the website. Students expressed their concerns, and they offered a
+          clear, comprehensible response. Students were encouraged to
+          continually learn and engage with one another in order to foster
+          collaboration and work partnerships. After all, the session was
+          really enlightening, and students were eager to get started on the
+          website's implementation`,
+    image: "./images/event/Innerveposter.png",
+  },
+  {
+    title: "Inaugration OF Sai Info-Blitz",
+    content: `The Inaugural Function was led by Dr.M.Nithya, Head of the
+          Department, M.tech CSE who greeted the gathering and hosted the
+          inaugural function enthusiastically. The upstanding principal of Sri
+          Sairam Engineering College, Dr.K Porkumaran felicitated the SAI
+          INFOBLITZ association and illuminated the students through his
+          enlightening speech. He described the three principles 'Knowledge,
+          Skill, Attitude' which would strengthen the quality benevolence of
+          the students. He shared his experience about the 'Naturally
+          Inspiring Algorithms' such as the 'Fishing Algorithm' which he had
+          used in the lung problem. He motivated the students by citing, "
+          You're not a student, You're a scholar. " Finally, he encouraged the
+          students to explore unexplored areas. Eventually, We had our Guest
+          of Honour Mr.Srinath Swaminathan who has more than 13 years of
+          Industrial Experience and currently working as a Devops Senior
+          Manager, Natwest Group (Bank). He threw his energetic and
+          power-packed discourse to the gathering. He inspired the students by
+          citing, " Knowledge grows when it is shared." He remembered his
+          nostalgic memories with the students. His session on the topic
+          'Identity and Information security management' was very informative
+          and enlightening. He explained the basic concepts of cybersecurity
+          and "jargons" that one should be aware of. He also explained the
+          flaws present in the existing systems and how we must oversee them.`,
+    image: "./images/event/InfoBlitz.png",
+  },
+  {
+    title: "Innovatia 1.0 - Techfest",
+    content: `On behalf of IEEE-System Man and Cybernetics society & in
+          association with SAI INFOBLITZ , the department of M.Tech CSE
+          Organized the event TechFest 2022- INNOVATIA 1.0 in Beta hall on
+          29.12.2022 at 9.15 a.m. with grand success. The chief guest was Mr.
+          Karthiq Ganesan,from Hcl tech,Associate General manager.Dr.M.Nithya
+          gave the welcome address for this event. Mr.Karthiq Ganesan gave his
+          speech on the latest technology in IT industry and clarified the
+          students doubts on job placements.Also he had shared ideas on data
+          science field along with their communication skills to get improved.
+          There were totally 86 attendees in this event, out of which 25
+          students were from various other reputed colleges.Students best
+          performer awards were given to the students after filing nominations
+          .Both technical like Cipher Nation , Startup Smackdown and
+          non-technical events like Captura,Superhero Shippuden,Music Fiesta
+          were conducted and the student winners were provided with
+          certificates and cash prize.With vote of thank ,the event gathering
+          ended at 4 pm.`,
+    image: "images/event/Innovatiaposter.jpeg",
+  },
+];
+
 const generateAchievements = () => {
   const sectionElement = document.querySelector("#achievements");
   achievementData.forEach((item, index) => {
@@ -359,5 +479,20 @@ const generateAchievements = () => {
   });
 };
 
+const generateEvents = () => {
+  const sectionElement = document.querySelector("#events");
+  eventData.forEach((item, index) => {
+    const node = document.createElement("div");
+    node.innerHTML = getEventOrAwardComponent(
+      item.content,
+      item.title,
+      item.image,
+      index
+    );
+    sectionElement.appendChild(node);
+  });
+};
+
 smoothScrolling();
 generateAchievements();
+generateEvents();
