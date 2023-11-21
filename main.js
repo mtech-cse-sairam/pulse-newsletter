@@ -64,12 +64,21 @@ const smoothScrolling = () => {
 
 const achievementData = [
   {
+    content: `Mr. Sivanesh K S and Mr. Surya A, both pursuing M.Tech CSE in their third year, alongside Mr. Naren Kumar S S from the Department of CSE, secured their positions as top 75 innovators in the Build (Bold, Unique, Lead, Idea, and Development) program at IIT Hyderabad.From a pool of over 600 applicants, these brilliant minds emerged victorious, clinching an initial funding of ₹1,00,000 to fuel the development of their groundbreaking prototype. The trio, particularly the dynamic duo of Sivanesh and Surya, showcased unparalleled teamwork and unwavering dedication during a grueling 3-day orientation bootcamp at IIT Hyderabad, held on October 29, 30, and 31. This intensive session delved into the nuances of the Tech Entrepreneurship Ecosystem, Design Thinking, Intellectual Property, the 6 D's of Technology, Elevator Pitching, Business Model Canvas, Branding & Storytelling, and Pitch Deck Design. The bootcamp, a crucible of learning and collaboration, also featured enlightening visits to iTIC iLab and the IITH Campus, providing real-world insights into the landscape they are set to conquer. Guided by a seasoned mentor, the duo navigated the intricate path of project development, ensuring the brilliance of their innovation shines through. The crescendo of their journey was the grand iTIC Foundation Day celebrations, where accolades, momentos , and special gifts awaited these visionary students, marking the culmination of a transformative and impactful chapter in their academic pursuits. As they stand at the precipice of tomorrow's technology, this triumphant trio embodies the spirit of innovation and the promise of a future sculpted by their ingenious contributions.`,
+    images: ["./images/Acheivements/build-program.png"],
+  },
+  {
+    content: `ABHINESH S, a second-year M.Tech student specializing in Computer Science and Engineering at Sri Sairam Engineering College, achieved notable success in the realm of technology and innovation. His outstanding performance commenced with securing the first prize at IBC Media's ALT HACK, hosted at Anna University from March 24 to March 31, 2023. Subsequently, he attained the top honor at the National Level Hackathon, NAAN MUDHAZHVAN - TN Skills 2023, held on May 5, 2023, at the prestigious Anna Centenary Library. ABHINESH S's remarkable creativity and innovative prowess were celebrated at both events, affirming his deep understanding of blockchain technology and its practical application to address real-world challenges. These accolades underscore his ability to think critically and provide solutions with a positive societal impact. The award ceremonies, particularly the one held at the esteemed Anna Centenary Library, served as fitting platforms to acknowledge ABHINESH S's dedication and talent. Notably, he received the award from the esteemed INNOCENT DIVYA IAS, a renowned figure in Tamil Nadu, further validating his success and solidifying his position as a noteworthy contributor to the field of technology and innovation.`,
+    images: ["./images/Acheivements/naan-mudhalvan.jpg"],
+  },
+  {
+    content: `Sivanesh K S and Surya A, brilliant pupils from the esteemed M.Tech Computer Science and Engineering department, recently showcased their exceptional ingenuity by clinching the runner-up award at the esteemed Ideathon and Pitchfest hosted by IEEE RMC at The NorthCap University in Gurugram, Haryana. The journey to this accomplishment commenced with their idea earning recognition during the abstract selection round, where it outshone 200+ competing applications. Progressing to the second round hosted at The NorthCap University, Gurugram, within the backdrop of the International Returning Mothers Conference held on October 26-27, the duo presented their innovative project in a sprawling auditorium before a diverse audience of over 300 participants, featuring esteemed delegates from across the world and India.Their remarkable presentation culminated in a well-deserved 1st runner-up position, coupled with a significant cash award of $250, in addition to receiving commendable tokens such as a memento and certificates. This achievement not only brought prestige to the M.Tech CSE department but also opened doors to extensive networking opportunities. Furthermore, their groundbreaking work is slated to be showcased on a global platform through IEEE TV, solidifying their standing in the international arena and highlighting the caliber of their contributions to the field of Computer Science and Engineering.`,
+    images: ["./images/Acheivements/IEEE/rmc.jpg"],
+  },
+  {
     content:
       "Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE has achieved a remarkable feat by securing the second position in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION. This esteemed event took place in Thiruvananthapuram, Kerala, spanning from July 3rd to July 6th, 2023.",
-    images: [
-      "./images/Acheivements/NCC/agilan4.png",
-      "./images/Acheivements/NCC/agilan1.png",
-    ],
+    images: ["./images/Acheivements/NCC/agilan4.png"],
   },
   {
     content: `IEEE Sri Sai Ram Engineering College, SMC28, System, Man and
@@ -468,6 +477,95 @@ const eventData = [
           ended at 4 pm.`,
     image: "images/event/Innovatiaposter.jpeg",
   },
+  {
+    title: "SPEAK LIVE - TAKING YOUR SKILLS TO THE NEXT LEVEL",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event to inculcate leadership skills on 1st March 2023 through Google meet. In this event, Our Honourable Chief Guest Mrs. JAYA BABU, an esteemed leadership skills trainer and people leader from FORD IT., provided valuable insights on Skill Development.`,
+    image: "./images/event/speak-live.png",
+  },
+  {
+    title: "ELEVATE -ONE STUDENT STARTUP:",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event on 2nd June 2023 to inculcate the idea about startup. Mr.K.J.Naveen  the Managing Director of Elitez Recruitment Services Pvt Ltd (Arient Solutions), aimed to provide Empowering Learning opportunities for students with a strong entrepreneurial vision.`,
+    image: "./images/event/elevate.png",
+  },
+  {
+    title: "BRIDGING GENERATION TECH TALK 1.0",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event on information security on 28th March 2023. Our respected chief guest Dr.Saravanan Chandran shared his knowledge about current threats and trends in information security`,
+    image: "./images/event/bridging-gap.png",
+  },
+  {
+    title: "IGNITING ENTREPRENEURIAL SKILLS",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event ON 23rd June 2023 at beta hall to give insights about entrepreneurship. Our chief guest Ms.Jaya Babu shared her knowledge about entrepreneurship and the real time industrial experience.`,
+    image: "./images/event/jaya-babu-program.png",
+  },
+  {
+    title: "ORIENTATION PROGRAMME",
+    content: `The Department of MTech CSE conducted an Orientation Programme for 2nd Year students (2022-2027)on 17/08/2023.`,
+    image: "./images/event/orientation-2023.png",
+  },
+  {
+    title: "WEBINAR PROGRAMME ON JEE FRAMEWORK",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted a two day webinar program on JEE framework headed by Dr.P.Kavitha Rani and Dr. A Pushpalatha  who spoke about about JEE framework topics and hand on sessions.`,
+    image: "./images/event/jee-program.png",
+  },
+  {
+    title: "SKILLRACK AWARENESS",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event on 13th September 2023. The seniors  Kamalesh Kumar , Muthu Anand Karthikeyan and Ruthi Shankari, of the department shared their knowledge about how to use skillrack platform proficiently to get a better coding knowledge.`,
+    image: "./images/event/skillrack-2023.png",
+  },
+  {
+    title: "INNOVATIA 2.0 INNAUGRATION",
+    content: `The association inauguration of  the department of M.Tech CSE "SAI INFLOBLITZ" on October 4 2023 from 1:30 pm onwards at Beta Hall. We are honored to have Sai Prasanna K, Cyber security operation Head,BFSI & Gvt sector as our esteemed chief guest.`,
+    image: "./images/event/innovatia2-innaugration.png",
+  },
+  {
+    title: "WRITE TO WIN",
+    content: `The department of M.Tech CSE in association with IEEE SMC conducted an event on 5th October to give insights about how to submit the research paper. Our respected Chief guest Dr.B.Vijaya Ramanath ,Hod of department of Mechanical Engineering shared his knowledge about how to write the research paper effectively and it's importance`,
+    image: "./images/event/write-to-win.png",
+  },
+  {
+    title: "ART OF WRITING",
+    content: `The department of M.Tech CSE and cyber security in association with IEEE SMC conducted an event on 20 November 2023 about how to write a thesis. Dr.B Bharathi gave her insights to all the staff about the methods to write a thesis.`,
+    image: "./images/event/art-of-writing.png",
+  },
+  {
+    title: "INNERVE 2.0",
+    content: `The department of M.Tech CSE in association with IEEE SMC society and powered by virtusa conducted a codeathon event on 2nd November 2023 . The tech stack codeathon event was conducted for students of batch (2021-2026) headed by the chief guests Mr.Rajkumar Sivasubramanian and Mrs.Mohana Priya S.`,
+    image: "./images/event/innerve2.png",
+  },
+  {
+    title: "REQUIRED TO PRODUCT - HANDS ON",
+    content: `The Department of M.Tech CSE in association with IEEE SMC conducted an event on 20th october 2023 to give insights about full stack development and JEE framework. Our respected chief guest Dr.Suganya shared her knowledge about the framework and other relevant details.`,
+    image: "./images/event/product-hands-on.png",
+  },
+];
+
+const awardData = [
+  {
+    title: "BEST EMERGING DEPARTMENT-M.TECH(CSE)",
+    content: `“Top Emerging Department” was a significant milestone for the M.Tech Computer Science and Engineering (CSE) department. This remarkable accomplishment underscores the department's unwavering commitment, collective effort, and hard work that led to this esteemed honor. The M.Tech CSE department extends its sincere appreciation to the Chairman and Principal, whose profound wisdom and support were pivotal in shaping the department's journey toward excellence. Their visionary leadership served as a guiding beacon, enabling the department to attain this remarkable recognition. The dedicated faculty and staff within the management team have played indispensable roles in achieving this significant milestone. Their ongoing support, guidance, and collaboration served as the strong foundation upon which success was built. And, of course, the extraordinary dedication and hard work exhibited by the M.Tech CSE students were the driving force behind this award. Their infectious energy, innovative thinking, and enthusiasm are the lifeblood of the department. The path to becoming the 'Best Emerging Department' was challenging, characterized by relentless dedication, passion, and an unceasing pursuit of academic excellence. Nevertheless, it is precisely this journey that adds deeper meaning and significance to this achievement.`,
+    image: "./images/awards/best-department-award.png",
+  },
+  {
+    title: "IEEE SMC GLOBAL AWARD",
+    content: `The Department of M.Tech CSE at SMC Society achieved a groundbreaking milestone by becoming the first society in India to gain international recognition from the IEEE forum. The society's outstanding contributions were acknowledged when it applied for the prestigious IEEE Outstanding SMCS Student Branch Chapter award. In a testament to the society's dedication and accomplishments, our department emerged successfully among numerous participants from various countries and societies.During the application process, the society diligently submitted all relevant documents highlighting both social and technical events organized by the M.Tech CSE SMC Society. The culmination of these efforts resulted in a significant honor—the 'IEEE Outstanding SMCS Student Branch Chapter Award 2023. The recognition brought not only prestige but tangible support as well. Our department was awarded a fund of $500, a symbolic memento, and a certificate acknowledging the hard work and impactful activities of the society. This acknowledgment from the IEEE forum not only reflects the excellence of our department but also serves as an inspiration for continued innovation and dedication to the advancement of knowledge in the field of Computer Science and Engineering. This prestigious accolade was bestowed upon our department at the IEEE SMC Conference held in Honolulu, Hawaii, USA.`,
+    image: "./images/awards/ieee-award.jpg",
+  },
+  {
+    title: "IEEE MADRAS SECTION HONORS DR.M.NITHYA",
+    content: `On the auspicious 14th of October, amid the vibrant celebration of IEEE Day at the College of Engineering Guindy, Anna University, The Institute of Electrical and Electronics Engineers (IEEE) Madras Section bestowed a distinguished honor upon Dr. M. Nithya. Recognizing her fervent dedication and noteworthy accomplishments, Dr. Nithya was acknowledged for her outstanding professional achievements within the IEEE community during the period of 2022-2023. The accolade, a testament to her unwavering commitment to the field, was presented by the esteemed personalities Dr. K. Porkumaran, Chairman of IEEE Madras Section, and Dr. R. Hariprakash, Secretary of IEEE Madras Section. Dr. Nithya's contributions, marked by enthusiasm and excellence, resonated with the core values of IEEE, an organization renowned for advancing technology for the benefit of humanity.Dr. M. Nithya's recognition on this notable occasion served as an inspiration, inspiring aspiring engineers and researchers to strive for excellence within the dynamic and ever-evolving landscape of electrical and electronic engineering. The IEEE Day celebration became a memorable milestone, underscoring the significance of dedication and achievement in shaping the future of technological advancements.`,
+    image: "./images/awards/ieee-hod-award.png",
+  },
+  {
+    title:
+      "R10 HUMANITARIAN SUSTAINABLE PROJECTS & VOLUNTEER TRAINING SUPPORT FUND-2023",
+    content: `IEEE Sri Sai Ram Engineering College, represented by its System, Man, and Cybernetics (SMC) chapter under the IEEE Madras Section, is honored to announce that it has been chosen to receive a support fund of $210 from the prestigious IEEE R10 Humanitarian Sustainable Project & Volunteer Training Support Fund 2023. This financial backing is a testament to the significance and promise of the chapter's innovative project titled "From Trash to Treasure: Uniting Waste Management and Mushroom Cultivation for a Sustainable Society." The project's focal point lies in addressing critical issues surrounding waste management and environmental sustainability. By synergizing waste management practices with mushroom cultivation, the initiative aims to create a symbiotic relationship that not only reduces environmental impact but also generates valuable resources. This forward-thinking approach aligns with the IEEE R10 Humanitarian Sustainable Project & Volunteer Training Support Fund's mission to support projects with tangible, positive effects on communities and the environment.The recognition of this project underscores its potential to contribute significantly to building a sustainable society. The financial support provided by IEEE R10 will empower the SMC28 chapter to further develop and implement their innovative solution. As the project unfolds, it is anticipated to serve as a model for other communities, showcasing the positive outcomes that can arise from holistic, environmentally conscious initiatives.`,
+    image: "./images/awards/ieee-r10-hta.jpg",
+  },
+  {
+    title: "IEEE SMC SOCIETY  SUBSIDY AMOUNT -$547.03",
+    content: `The IEEE SMC Society of the M.Tech CSE department has secured financial support totaling $547.03 USD. This approval, attributed to the efforts of VP for Finance, Dr. Tang, and Treasurer, Dr. Wan, underscores their pivotal roles as committee members within the IEEE society. Their instrumental contribution has paved the way for the SMC Society Chennai branch to organize a spectrum of events, spanning both social and technical domains. This funding signifies a commitment to fostering a dynamic environment for the exchange of knowledge and ideas within the society. With the financial backing in place, the SMC Society is well-positioned to enrich the academic and professional experience of its members, fostering a vibrant community dedicated to the advancements in Systems, Man, and Cybernetics.`,
+    image: "./images/awards/ieee-society-subsidy.png",
+  },
 ];
 
 const generateAchievements = () => {
@@ -493,6 +591,21 @@ const generateEvents = () => {
   });
 };
 
+const generateAwards = () => {
+  const sectionElement = document.querySelector("#awards");
+  awardData.forEach((item, index) => {
+    const node = document.createElement("div");
+    node.innerHTML = getEventOrAwardComponent(
+      item.content,
+      item.title,
+      item.image,
+      index
+    );
+    sectionElement.appendChild(node);
+  });
+};
+
 smoothScrolling();
 generateAchievements();
 generateEvents();
+generateAwards();
