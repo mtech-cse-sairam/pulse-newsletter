@@ -68,17 +68,29 @@ const achievementData = [
     images: ["./images/Acheivements/build-program.png"],
   },
   {
-    content: `ABHINESH S, a second-year M.Tech student specializing in Computer Science and Engineering at Sri Sairam Engineering College, achieved notable success in the realm of technology and innovation. His outstanding performance commenced with securing the first prize at IBC Media's ALT HACK, hosted at Anna University from March 24 to March 31, 2023. Subsequently, he attained the top honor at the National Level Hackathon, NAAN MUDHAZHVAN - TN Skills 2023, held on May 5, 2023, at the prestigious Anna Centenary Library. ABHINESH S's remarkable creativity and innovative prowess were celebrated at both events, affirming his deep understanding of blockchain technology and its practical application to address real-world challenges. These accolades underscore his ability to think critically and provide solutions with a positive societal impact. The award ceremonies, particularly the one held at the esteemed Anna Centenary Library, served as fitting platforms to acknowledge ABHINESH S's dedication and talent. Notably, he received the award from the esteemed INNOCENT DIVYA IAS, a renowned figure in Tamil Nadu, further validating his success and solidifying his position as a noteworthy contributor to the field of technology and innovation.`,
-    images: ["./images/Acheivements/naan-mudhalvan.jpg"],
+    content: `Surya and Sivanesh from M.Tech CSE (2021-2026), along with Naren Kumar from CSE, seized a unique opportunity to showcase their startup before prominent investors in Salem on September 30th, 2023, through StartNet Ventures Private Limited. This experience proved invaluable, offering profound insights from tech experts, including a motivating speech from marketing strategist Mani Maran Ramalingam.`,
+    images: ["./images/Acheivements/start-net.jpg"],
+  },
+  {
+    content:
+      "Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE has achieved a remarkable feat by securing the second position in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION. This esteemed event took place in Thiruvananthapuram, Kerala, spanning from July 3rd to July 6th, 2023.",
+    images: ["./images/Acheivements/NCC/agilan4.png"],
   },
   {
     content: `Sivanesh K S and Surya A, brilliant pupils from the esteemed M.Tech Computer Science and Engineering department, recently showcased their exceptional ingenuity by clinching the runner-up award at the esteemed Ideathon and Pitchfest hosted by IEEE RMC at The NorthCap University in Gurugram, Haryana. The journey to this accomplishment commenced with their idea earning recognition during the abstract selection round, where it outshone 200+ competing applications. Progressing to the second round hosted at The NorthCap University, Gurugram, within the backdrop of the International Returning Mothers Conference held on October 26-27, the duo presented their innovative project in a sprawling auditorium before a diverse audience of over 300 participants, featuring esteemed delegates from across the world and India.Their remarkable presentation culminated in a well-deserved 1st runner-up position, coupled with a significant cash award of $250, in addition to receiving commendable tokens such as a memento and certificates. This achievement not only brought prestige to the M.Tech CSE department but also opened doors to extensive networking opportunities. Furthermore, their groundbreaking work is slated to be showcased on a global platform through IEEE TV, solidifying their standing in the international arena and highlighting the caliber of their contributions to the field of Computer Science and Engineering.`,
     images: ["./images/Acheivements/IEEE/rmc.jpg"],
   },
   {
-    content:
-      "Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE has achieved a remarkable feat by securing the second position in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION. This esteemed event took place in Thiruvananthapuram, Kerala, spanning from July 3rd to July 6th, 2023.",
-    images: ["./images/Acheivements/NCC/agilan4.png"],
+    content: `Sri Charith A G, a distinguished member of the M.Tech CSE department, recently demonstrated exceptional prowess at the SEATECH Hackathon in Malaysia, garnering international acclaim. His noteworthy participation in this global event not only brought pride to our department but also showcased a commendable dedication to innovation on an international stage. The SEATECH Hackathon proved to be a transformative experience, challenging conventional thinking and offering invaluable insights. The support extended by Sri Sai Ram Engineering College, particularly through a travel grant of rupees 1 lakh, played a pivotal role in facilitating this international participation. We express our sincere gratitude for their unwavering encouragement, as their generosity significantly contributed to the success of our representative. Beyond enabling participation in Malaysia, this opportunity served as a prominent platform to exhibit and refine skills and talents. We would also like to acknowledge our management for their noteworthy gesture of honoring participants with a Cash Award, a testament to their recognition and appreciation for the dedication and success achieved at this prestigious international event. Such support reinforces our commitment to fostering excellence and innovation within our academic community.`,
+    images: ["./images/Acheivements/sea-tech.jpg"],
+  },
+  {
+    content: `Rakesh, Aldous Roy and Parthiban.J of M.Tech(CSE) (2021-2026)secured Second place in the Ideathon Event, organised by NDLI Club on 11th july 2023.`,
+    images: ["./images/Acheivements/voice-of-brain.png"],
+  },
+  {
+    content: `Vaishnavi S. Department of MTECH CSE (III year)(2021-2026) has been chosen as IEEE Region 10 WIE Pre-University Champion 2023 on 17th October 2023.`,
+    images: ["./images/Acheivements/IEEE/wie-champion-2023.jpg"],
   },
   {
     content: `IEEE Sri Sai Ram Engineering College, SMC28, System, Man and
