@@ -392,6 +392,128 @@ const achievementData = [
     VALLIAMMAI ENGINEERING COLLEGE on 7.10.2023`,
     images: ["./images/Acheivements/SivaneshSRM.jpeg"],
   },
+  {
+    content: `Mr. Sivanesh K S, Mr. Ramanathan K, and Mr. Sri Charith A G from the department of M.Tech CSE (2021-2026 batch) who have secured the "first prize" in INNOVATHON 2.0 conducted on 21.03.2024 at Sairam Institutions in the Sairam SDG-INNOVATHON. Their project , "IoT Powered Vehicle Maintenance And Tracking System," presented under the SDG Goal-9, showcases their innovative prowess and dedication to addressing real-world challenges. 
+    `,
+    images: ["./images/Acheivements/solvesivanesh.png"]
+  },{
+    content: `Mr. Muthu Anand SU, Mr. Kamalesh Kumar Saravanan, and Mr. Guru Sanjay R K from the department of M.Tech CSE (2021-2026 batch) who have secured the "first prize" in INNOVATHON 2.0 conducted on 21.03.2024 at Sairam Institutions in the Sairam SDG-INNOVATHON. Their project titled "E Public Distribution system" under the SDG Goal -2 reflects their innovative spirit and dedication to addressing  crucial societal issues.  
+    `,
+    images: ["./images/Acheivements/muthuinnovathon.png"]
+  },{
+    content: `Warmest congratulations to Mr. Surya A, Mr. Sundaram S, and Mr. Sriram G from the department of M.Tech CSE (2021-2026 batch) for securing the "third prize" in INNOVATHON 2.0 held on 21.03.2024 at Sairam Institutions in the Sairam SDG-INNOVATHON. Their project, "Health Insurance Service Portal," presented under the SDG Goal -1, reflects their innovative approach and commitment to addressing critical societal challenges.
+    `,
+    images: ["./images/Acheivements/innovathonsurya.png"]
+  },{
+    content: `Extremely happy to share with you all that our students Mr.R.Devadarshan, Ms.KS.Geetha Rashni, Ms.S.Saranya, Mr.J.Parthiban of M.Tech cse won the “Second place” in the Solveathon3.0 held on 29 April 2024 and 30 April 2024 in the goal 1 - NO POVERTY on the project "B2I-NO POVERTY USING BLOCKCHAIN" of accelerating a Beggar Into An Investor. 
+    `,
+    images: ["./images/Acheivements/devasolveathon.jpg"]
+  },{
+    content: `Happy to share that our students Ms.G Hasumathi Lakshmi, Ms.B.Lakshitha, Ms.M.Divya Sri, Ms.V.Divyadarshini from the department of M.Tech CSE (2022-2027 batch )  has secured “second place” in SOLVEATHON 3.0 conducted on 29.04.2024 of Sairam Institutions in the Sairam SDG-SOLVATHON by presenting their project titled “Digital Water Treatment Process Designer” under the SDG Goal -6.
+
+    `,
+    images: ["./images/Acheivements/solveathonhasumathi.jpg"]
+  },{
+    content: `Khushi Mili Mishra, Koushik Babu M, and Sai Charan U from the department of M.Tech CSE (2022-2027 batch) have secured the "second prize" on Goal 7 in SOLVEATHON 3.0 conducted on 29.04.2024 at Sairam Institutions in the Sairam SDG-SOLVATHON. Their project titled "Solar Glider- A Drone Based Solar Panel Cleaning Technology" enhances the efficiency and performance of solar panel systems by cleaning them using Drones.
+ 
+    `,
+    images: ["./images/Acheivements/kushisolveathon.jpg"]
+  },{
+    content: `Mr.S.M.Selva Vignesh(TL),Mr.S.J.Aadithya,S. Mr.Sairaghav, Mr.C.M.Lokesh from the department of M.Tech CSE (2022-2027 batch)  has secured second prize in SOLVEATHON 3.0 conducted on 29.04.2024 at Sairam Institutions in the Sairam SDG-SOLVEATHON by presenting their project titled “ADVANCE TROOPS TRAINING USING VIRTUAL REALITY” under the SDG Goal -16 
+    `,
+    images: ["./images/Acheivements/selvasolveathon.jpg "]
+  },{
+    content: `Aldous Roy, Janani VS and Vetriselvi M form the department of M.Tech CSE have secured “Third Prize” on Goal 17 in SDG SOLVATHON 3.0 held on Sairam Institution by presenting the project title “ENHANCING VISUAL CLARITY IN HAZING AND SMOKY ENVIRONMENT USING DARK CHANNEL PRIOR” under SDG Goal-17.
+    `,
+    images: ["./images/Acheivements/aldoussolveathon.jpg "]
+  },{
+    content: `Ms. Sivasakthi A of second year M.tech cse has won the first prize in MatMac event conducted by a national level technical symposium silicon 2k24 held during 3rd and 4th april organized by IEEE student branch  at Sathyabama institute of science and technology.
+    `,
+    images: ["./images/Acheivements/sivasakthi.png "]
+  },{
+    content: `Mr. Viknesh SR , Mr. Vigneshwaran R, Mr. Nikesh B and Mr. Vickna Sai kumar of 2nd year M.Tech CSE has won the first prize  in “INNOVATION QUEST” on spot paper presentation which is organized by SRM Institute of Science and Technology on 12.4.24.
+    `,
+    images: ["./images/Acheivements/vikneshsrm.png "]
+  },{
+    content: `Ms.Vaishnavi S and Ms.Preethi S won the 1st Runner-up  in Paper Presentation which was held at Crescent Institute of Science and Technology on 9th May of 2023. 
+    `,
+    images: ["./images/Acheivements/vaishnavipaper.png "]
+  },{
+    content: `Mr. Sri Charith A G (III Year M. Tech CSE) , Ms. Anurega (III Year IT), Mr. Arvind Adithya (III Year IT) and Mr.Dhanush (III Year CSE) has won the 2nd Place in IEEE INDIA COUNCIL HACKATHON which was held at Manipal University, Jaipur on 21st and 22nd October 2023
+    `,
+    images: ["./images/Acheivements/charithhackathon.jpg "]
+  },{
+    content: `
+    Mr. Deepak P (II Year CSE), Ms. Indhumathi S (III Year M. Tech CSE) , Ms. Nivetha S (II Year ECE) and Ms. Vaishali S (III Year M. Tech CSE) won the 2nd Place in IEEE INDIA COUNCIL HACKATHON which was held at Manipal University, Jaipur on 21st and 22nd October 2023    
+    `,
+    images: ["./images/Acheivements/vaishalihackathon.jpg "]
+  },{
+    content: `Ms.Pavithra Ramakrishnan, Ms. Vaishnavi S from M.Tech CSE department and Mr.Vishaal S from EEE department  from the 3rd year, achieved 1st prize in the National Level Technical Symposium, PINNACLE’24 which is conducted by the Department of IT – SRM Easwari Engineering College on 23rd February of 2024. 
+    `,
+    images: ["./images/Acheivements/pinnacle.jpg "]
+  },{
+    content: `Ms.Vaishnavi S, 3rd Year M.Tech Integrated CSE , has been bestowed with the prestigious IEEE BEST STUDENT VOLUNTEER AWARD for her exceptional dedication and unwavering commitment to SAIRAM IEEE throughout the year 2023.
+
+    `,
+    images: ["./images/Acheivements/vaishnaviIee.png "]
+  },
+  {
+    content: `A state level symposium event ELEXPIEG held on 20th March 2024 by Electrical and Electronics Engineering & Electronics and Communication Engineering on behalf of MNM Jain College of Engineering College, Three students of Sri Sairam Engineering College from the M.Tech CSE department namely Mr. S J Aadithya, Mr. S Sairaghav, Mr. S M Selva Vignesh won the second prize  in the event Paper Feast with a cash prize.
+    `,
+    images: ["./images/Acheivements/elexpieg.jpg "]
+  },
+  {
+    content: `
+    Our III year MTech CSE student, Mr. Mohammed Rizwan M received First place in the paper presentation event organized by Anand Institute of Higher Technology on 23rd March 2024.
+    `,
+    images: ["./images/Acheivements/rizwanpaper.png"]
+  },{
+    content: `
+    Mr. Siva Ganeshan K and Mr. Aravinddakshan S (III Year M. Tech CSE) has won the 1st Place in INKOGNITZ Paper Presentation event which was held at Jeppiaar Engineering College, Chennai on 22nd March 2024.
+    `,
+    images: ["./images/Acheivements/sivaganesh.png "]
+  },{
+    content: `
+    Ms. Sri Durgadevi S (III Year M. Tech CSE) , Mr. Kishore M.A, Ms. Bharathi K, Ms. Krithika A (III Year IT) won the 2nd Place in REVOITZ 2.0 Paper Presentation event which was held at Jeppiaar Engineering College, Chennai on 22nd March 2024.
+    `,
+    images: ["./images/Acheivements/revoitz.png "]
+  },{
+    content: `Ms. Vaishnavi S and Ms. Pavithra R from the 3rd Year M.Tech CSE Department, along with Mr. Vishaal S and Ms. Abinaya R from the 3rd Year EEE Department has won the 1st Place in Project Presentation Event conducted by the department of EEE – HINDUSTAN INSTITUTE OF TECHNOLOGY AND SCIENCE on 6th april 2024.
+    `,
+    images: ["./images/Acheivements/pavihtrapresentation.jpg "]
+  },{
+    content: `
+    Ms. Yuvashree RH, Ms. Khushi Mili Mishra, Mr. Viknesh SR and Mr. Raveen T won cash awards of Rs 1000, Rs 750, Rs 500 and Rs 250 respectively for the BIS Standards Writing Competition on the topic “Potable Water Bottle”.
+    `,
+    images: ["./images/Acheivements/portablewater.jpg "]
+  },{
+    content: `Ms. N Nivetha Bharathy and Ms. Yuvashree RH won the first (Rs 1000) and the second (750) places in the Overall BIS Standards Writing Competition on the topic “Sticker Bindi”.
+    `,
+    images: ["./images/Acheivements/stickerbindhi.jpg "]
+  },{
+    content: `Mr.Deva Darshan R and his colleagues  Mr.Parthiban J, Ms Geetha Rashni KS, Mr Gopiram R and Mr. Dinesh Karthik from M.Tech CSE have established a startup company called Velvet Vistaa Designs pvt ltd on March 30, 2024, to provide services that include software design, UI UX design, graphic design, animation, and so on.
+    `,
+    images: ["./images/Acheivements/velvetvistaa.jpg "]
+  },
+  {
+    content: `IEEE FUND,Team AVANT-GARDE, comprising M.Tech CSE students from IEEE SEC SMC SBC, has secured funding through EPICS in IEEE for their groundbreaking project titled "Hyaciguard - Restoring Water Ecosystem Innovatively." Led by the astute leadership of Mr.RAKESH R and under the expert guidance of Principal Investigator Dr. M. NITHYA, HOD of M.Tech CSE, the team stands at the forefront of addressing critical environmental concerns. Comprised of dedicated individuals including Ms.SHRIVANI R, Mr.SIVANESH KS, and Mr. SURYA A, all in their third year of M.Tech CSE, the team showcases exemplary commitment and ingenuity in their pursuit of restoring water ecosystems.
+    `,
+    images: ["./images/Acheivements/avantgarde.png"]
+  },{
+    content: `Mr. Kamalesh Kumar Saravanan and Mr. Muthu Anand SU both received a stipend of Rs 12000 and Rs 15000 respectively for creating their work on an E-Commerce Website for selling Merchandise.
+    `,
+    images: ["./images/Acheivements/madrasdafund.png"]
+  },{
+    content: `Car Simulator, Coin Collector Using Leap Sensor
+    Mr. SM Selva Vignesh, Mr. SJ Aadithya and Mr. S Sairaghav were awarded with a cash award of Rs 2000 each for their projects namely, Coin Collector Car Using Leap Sensor and Car Simulation.
+    `,
+    images: ["./images/Acheivements/carsimulator.jpeg"]
+  },{
+    content: `We're thrilled to announce that our talented students - Ms.Yogitha.M,Ms. Swathika.S, Ms.Yuvashri.A.K.M from the Department of M.Tech CSE (2021-2026 batch) have clinched a "SEED FUND" of 25,000 for their groundbreaking project "AI-SMART SEWER MAINTENANCE SYSTEM" .
+    This remarkable achievement was accomplished at the prestigious RUSA 2.0 STARTUP CAFE event held on 27.04.2024, organized by the Center for Entrepreneurship Development at Anna University, Guindy.
+    `,
+    images: ["./images/Acheivements/seedfund.jpg"]
+  },
 ];
 
 const eventData = [
@@ -579,6 +701,47 @@ const awardData = [
     image: "./images/awards/ieee-society-subsidy.png",
   },
 ];
+const socialEvents = [
+  {
+    title: `Adutha Illaku`,
+    content: `Mr.Sabari RL, Mr.Raj kumar R, Mr.Rishi vel A, Mr.Aadhithya SJ and Mr.Selva vignesh SM of Mtech CSE have got an opportunity to attend the ADUTHA ILAKKU event conducted by LMES Academy and pick my career and hiring institutions , presented by Sairam institutions at various locations inside Tamilnadu. The students traveled to various schools located in places like Thiruthuraipoondi, Cuddalore, Villupuram, Dindigul, Madurai to demonstrate various projects related to AR and VR to school students. It was a great learning session where they got an opportunity to interact with various industrial giants including the CEO of GUVI ARUNPRAKASH. They shared their insights about the current trends in education to all the`,
+    images:  ["./images/socialEvents/aduthaillaku.png "]
+  },
+  {
+    title: `AIM For Science`,
+    content: `Ms.Ruthi Shankari of 3rd year M.Tech CSE and Ms.Lakshitha of 2nd year M.Tech CSE, as magic members of Atal Innovation Mission, have organized an event for IEEE Education Week titled "AIM FOR SCIENCE" for students at the Good Life Center Orphanage on April 13, 2024. 
+    `,
+    images:  ["./images/socialEvents/aimforscience.png"]
+  },{
+    title: `Helping Hand To The Community`,
+    content: `The M.Tech CSE department, together with all of the students and teachers, came together to provide aid to those afflicted by the Michaung Cyclone. A total of Rs 10,000 was donated by the staff and students, and that fund was used to purchase sheets and towels for the affected individuals in different locations. The bedsheets were distributed among the affected by the students.    
+    `,
+    images:  ["./images/socialEvents/flood.jpg"]
+  },{
+    title: `EDUCATION EXPO 2024 AT TRADE CENTER`,
+    content: `
+    The students of M.Tech CSE Mr. Rishi Vel, Mr. R  Rajkumar, Mr. SJ Aadithya, Mr. SM SelvaVignesh and Mr. Sabari R L  represented our college in the EDUCATION EXPO 2024 conducted at Chennai trade centre on April 3 2024. The students presented projects based on AR and VR attendees . It was a great learning and interactive session, and they got an opportunity to connect with the industrialists, students and other people.
+    `,
+    images:  ["./images/socialEvents/expo.jpg "]
+  },{
+    title: `Rags To Riches`,
+    content: `The students of M.Tech CSE Mr. R. Devadarshan, Ms.KS.Geetha Rashni, Ms.S.Saranya and Mr.J.Parthiban had done their social work related to their project of converting a Beggar to an Investor. They had a personal conversation and came to know about the problems they face in their lives. They had created a platform for them to overcome these problems. They are developing an app related to these people with the blockchain technology. They got an opportunity to meet people and feel their problems they undergo in day to day life.
+    `,
+    images:  ["./images/socialEvents/ragstoriches.jpg "]
+  },{
+    title: `ANNA UNIVERSITY INTERNATIONAL CONFERENCE 2024`,
+    content: `The students of department of M.Tech CSE attended the AIIII 2024-ANNA UNIVERSITY INTERNATIONAL CONFERENCE 2024, which focused on "Research Trends in AI and IoT for Infrastructure and Industry". Mr. R L Sabari and Mr. R Rajkumar along with other students gave presentations for the projects on augmented reality and virtual reality over the three-day event. The students had the chance to interact with many industrialists  and present ideas to a variety of industrial professionals and students, which was an amazing experience.
+    `,
+    images:  ["./images/socialEvents/conference.jpg "]
+  },
+  {
+    title: `SURVEY FOR REAL TIME PROJECTS:
+    `,
+    content: `M.Tech CSE students SWATHIKA S, YUVASHRI A K M, and YOGITHA M engaged in direct public interaction to gather data for their ongoing project, "Designing an artificial intelligence based robot for clog removal."They went to Zone 8 in Anna Nagar, which had a sizable market and a consumer base.They gathered information about their idea and posed several questions about it.The students engaged in an interactive session where they gained knowledge about the current real-world issue that will guide their project forward.
+    `,
+    images: ["./images/socialEvents/survey.jpg "]
+  }
+]
 
 const generateAchievements = () => {
   const sectionElement = document.querySelector("#achievements");
@@ -602,7 +765,20 @@ const generateEvents = () => {
     sectionElement.appendChild(node);
   });
 };
+const generateSocials = () => {
+  const sectionElement = document.querySelector("#social-events");
+  socialEvents.forEach((item, index) => {
+    const node = document.createElement("div");
+    node.innerHTML = getEventOrAwardComponent(
+      item.content,
+      item.title,
+      item.images,
+      index
+    );
+    sectionElement.appendChild(node);
+  });
 
+}
 const generateAwards = () => {
   const sectionElement = document.querySelector("#awards");
   awardData.forEach((item, index) => {
@@ -621,3 +797,4 @@ smoothScrolling();
 generateAchievements();
 generateEvents();
 generateAwards();
+generateSocials();
