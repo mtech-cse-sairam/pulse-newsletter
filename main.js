@@ -73,7 +73,7 @@ const achievementData = [
   },
   {
     content:
-      "Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE has achieved a remarkable feat by securing the second position in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION. This esteemed event took place in Thiruvananthapuram, Kerala, spanning from July 3rd to July 6th, 2023.",
+      `Agilan Amarnath Flight Cadet in NCC from the Depsartment of M tech CSE has achieved a remarkable feat by securing the second position in the prestigious ALL INDIA INTER DIRECTORATE SPORTS SHOOTING COMPETITION. This esteemed event took place in Thiruvananthapuram, Kerala, spanning from July 3rd to July 6th, 2023.`,
     images: ["./images/Acheivements/NCC/agilan4.png"],
   },
   {
